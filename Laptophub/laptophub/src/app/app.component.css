@@ -1,0 +1,28 @@
+
+
+h1{
+  text-align: left;
+  background-color:rgb(71, 30, 255) ;
+
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 5px;
+  overflow: hidden;
+  padding-right: 40px;
+  font-size: 20px; 
+  bottom: 15px;
+  
+}
+/* }
+section{
+  background-image: url(images.jpg);
+}  */
+
+
+nav{
+  text-align: right;
+}
+
+

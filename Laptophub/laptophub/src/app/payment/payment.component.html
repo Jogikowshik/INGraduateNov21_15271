@@ -1,0 +1,122 @@
+<p>payment works!</p>
+<section id="paymentPage">
+    <div class="container p-5" >
+      <div class="row mt-5">
+        <div class="col-lg-4 offset-lg-4">
+  
+          <div class="card bg-light">
+            <div class="card-body">
+              <h4 class="text-center">Payment</h4>
+              <hr />
+              <form [formGroup]="form" (ngSubmit)="submit()">
+  
+                <div class="form-group">
+                  <label class="form-control-label">ID</label>
+                  <input type="text" formControlName="id" id ="id" class="form-control" placeholder="Enter  id"  />
+                  <div *ngIf="f['id'].touched && f['id'].invalid" class="alert alert-danger">
+                <div *ngIf="f['id'].errors && f['id'].errors['required']">Id is required.</div>
+            </div>
+        </div>
+  
+        <div class="form-group">
+          <label class="form-control-label">Order Id</label>
+          <input
+            type="order_id"
+            formControlName="order_id"
+            
+            class="form-control"
+            pattern="[789][0-9]{9}"
+  
+            placeholder="Enter order_id"
+          />
+          <div *ngIf="f['order_id'].touched && f['order_id'].invalid" class="alert alert-danger">
+            <div *ngIf="f['order_id'].errors && f['order_id'].errors['required']">Mobile Number is required.</div>
+        </div>
+        </div>
+  
+                <div class="form-group">
+                  <label class="form-control-label">Total Amount</label>
+                  <input type="total_amount" id="total_amoun" formControlName="total_amoun" class="form-control" />
+                  <div *ngIf="f['total_amoun'].touched && f['total_amoun'].invalid" class="alert alert-danger">
+                    <div *ngIf="f['total_amoun'].errors && f['total_amoun'].errors['required']">Email is required & @ should be present.</div>
+                </div>
+            </div>
+  
+                <div class="form-group">
+                  <label class="form-control-label">Payment Mode</label>
+                  <input
+                    type="payment_mode"
+                    formControlName="payment_mode"
+  
+                    class="form-control"
+  
+                    placeholder="only cash and delivery"
+                  />
+                  <div *ngIf="f['payment_mode'].touched && f['payment_mode'].invalid" class="alert alert-danger">
+                    <div *ngIf="f['payment_mode'].errors && f['payment_mode'].errors['required']">Password is required & Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters.</div>
+  
+                  </div>
+                </div>
+                
+  
+                <!-- <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" name="isSeller" class="form-check-input" [(ngModel)]="isSeller"> Register as Seller
+                  </label>
+                </div> -->
+                 <hr />
+                  <!-- <input
+                  type="button"
+                  value="Submit"
+                  class="btn btn-primary btn-block"
+  
+                  [disabled]="btnDisabled"
+                /> -->
+  
+                 <button class="btn btn-warning" type="Pay" [disabled]="!form.valid">Submit</button>
+        
+  
+              </form>
+              <a  routerLink="/login"  >Back</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+   <!-- <div class="container" id="user">
+    <h1 class="text-center">Registration</h1>
+    <hr/>
+  
+    <form [formGroup]="form" (ngSubmit)="submit()">
+  
+        <div class="form-group">
+            <label for="firstName">firstName:</label>
+            <input
+                formControlName="firstName"
+                id="firstName"
+                type="text"
+                class="form-control">
+            <div *ngIf="f['firstName'].touched && f['firstName'].invalid" class="alert alert-danger">
+                <div *ngIf="f['firstName'].errors && f['firstName'].errors['required']">firstName is required.</div>
+            </div>
+        </div>
+  
+        <div class="form-group">
+          <label for="lastName">lastName:</label>
+          <input
+              formControlName="lastName"
+              id="lastName"
+              type="text"
+              class="form-control">
+          <div *ngIf="f['lastName'].touched && f['lastName'].invalid" class="alert alert-danger">
+              <div *ngIf="f['lastName'].errors && f['lastName'].errors['required']">lastName is required.</div>
+          </div>
+      </div>
+      <br>
+        <button class="btn btn-primary" type="submit" [disabled]="!form.valid">Submit</button>
+        &nbsp; <a href="#" routerLink="/UserList" class="btn btn-primary">Back</a>
+    </form>
+  </div> -->
+   <!-- title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" -->
