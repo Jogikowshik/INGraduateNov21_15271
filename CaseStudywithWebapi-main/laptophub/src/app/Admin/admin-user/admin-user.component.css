@@ -1,0 +1,16 @@
+.AdminUser
+{
+  padding-top:45px;
+}
+#user
+{
+  border: 3px solid gainsboro;
+  border-radius:15px;
+  padding:25px;
+  width:50%;
+  background-color: gainsboro;
+}
+h4
+{
+  text-align:center;
+}

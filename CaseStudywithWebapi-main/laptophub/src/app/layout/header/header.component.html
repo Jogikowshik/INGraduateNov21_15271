@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-sm  navbar-dark">
+  <a  class="navbar-brand" id="Lap"><mat-icon style="margin-right:5px;">laptop_chromebook</mat-icon>LaptopHub</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="mynav">
+  <ul class="navbar-nav mr-auto">
+  </ul>
+  <form class="form-inline my-2 my-lg-0">
+    <div class="input-group">
+      <div class="input-group-prepend">
+    <span class="input-group-text" id="search"><i class="fa fa-search"></i></span>
+      </div>
+      <input type="text"  class="form-control" placeholder="search" name="search" #searchtext>
+    </div>
+    <button class="btn btn-primary my2-my-sm-0" type="button" (click)="searchProduct(searchtext.value)">Search</button>
+  </form>
+  &nbsp;&nbsp;&nbsp;
+  <a class="nav-link" routerLink="/Home">HOME</a>
+  <a class="nav-link" routerLink="/aboutus">ABOUT US</a>
+  <a class="nav-link" routerLink="/contactus">CONTACT US</a>
+  <a class="nav-link" routerLink="/Login">LOGIN</a>
+  <a class="nav-link" routerLink="/AdminLogin">ADMIN</a>
+  <a class="nav-link" routerLink="/Cart" ><mat-icon>shopping_cart</mat-icon> </a>
+  <button routerLink="/Home" class="btn btn-danger mx-3">Logout</button>
+  </div>
+  </nav>
+
+

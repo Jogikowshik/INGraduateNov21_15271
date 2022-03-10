@@ -1,0 +1,39 @@
+<div class="productlist"></div>
+<div class="mat-elevation-z8" id="productalign">
+  <hr/>
+  <h3 id="tlName">Products</h3>
+  <hr/>
+  <table mat-table [dataSource]="dataSource" class="table table-bordered">
+    <!-- productName Column -->
+    <ng-container matColumnDef="ProductName">
+      <th mat-header-cell *matHeaderCellDef> productname</th>
+      <td mat-cell *matCellDef="let element"> {{element.productname}} </td>
+    </ng-container>
+    <!-- image Column -->
+    <ng-container matColumnDef="Image">
+      <th mat-header-cell *matHeaderCellDef> image </th>
+      <td mat-cell *matCellDef="let element"><img [src]='element.image' [alt]='' height="70px" width="90px"> </td>
+    </ng-container>
+    <!-- price Column -->
+    <ng-container matColumnDef="Price">
+      <th mat-header-cell *matHeaderCellDef> price </th>
+      <td mat-cell *matCellDef="let element"> {{element.price}} </td>
+    </ng-container>
+
+    <!-- Action Column -->
+    <ng-container matColumnDef="Action">
+      <th mat-header-cell *matHeaderCellDef> Action </th>
+      <td mat-cell *matCellDef="let element"> <a  [routerLink]="['/dashboard/Products/',element.id,'UpdateDetails']" class="btn btn-primary"> <i class="material-icons">edit</i></a> &nbsp;
+        <button type="button" (click)="deleteUser(element.id)" class="btn btn-danger"><i class="material-icons">delete</i></button>
+
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+  <mat-paginator [pageSizeOptions]="[4, 10, 20]"
+                 showFirstLastButtons
+                 aria-label="Select page of  products">
+  </mat-paginator>
+</div>

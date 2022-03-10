@@ -1,0 +1,50 @@
+table
+{
+  border: 3px solid dodgerblue;
+  border-radius:15px;
+  width:100%;
+}
+
+table th{
+  text-align: center;
+  font-size: large;
+  padding-bottom:15px;
+}
+
+table td{
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  padding: 8px;
+  border: 3px solid deepskyblue;
+
+}
+.categorylist
+{
+  padding-top:85px;
+}
+
+#categoryalign
+{
+  padding:3%;
+}
+#tlName
+{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+th
+{
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  border: 3px solid deepskyblue;
+}
+hr
+{
+  color: deepskyblue;
+  width:100%;
+  text-align: center;
+}

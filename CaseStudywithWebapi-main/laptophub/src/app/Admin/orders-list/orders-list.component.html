@@ -1,0 +1,40 @@
+<div class="productlist"></div>
+<div class="mat-elevation-z8" id="productalign">
+  <hr/>
+  <h3 id="tlName">Orders</h3>
+ <hr/>
+  <table mat-table [dataSource]="dataSource" class="table table-bordered">
+
+    <ng-container matColumnDef="productId">
+      <th mat-header-cell *matHeaderCellDef> productId</th>
+      <td mat-cell *matCellDef="let element"> {{element.productid}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="customerId">
+      <th mat-header-cell *matHeaderCellDef> customerId </th>
+      <td mat-cell *matCellDef="let element">{{element.customerid}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="orderDate">
+      <th mat-header-cell *matHeaderCellDef> orderDate </th>
+      <td mat-cell *matCellDef="let element"> {{element.orderdate}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="orderAddress">
+      <th mat-header-cell *matHeaderCellDef> orderAddress </th>
+      <td mat-cell *matCellDef="let element"> {{element.orderaddress}} </td>
+    </ng-container>
+
+  <ng-container matColumnDef="totalAmount">
+      <th mat-header-cell *matHeaderCellDef> totalAmount </th>
+      <td mat-cell *matCellDef="let element"> {{element.totalamount}} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+  <mat-paginator [pageSizeOptions]="[4, 10, 20]"
+                 showFirstLastButtons
+                 aria-label="Select page of  products">
+  </mat-paginator>
+</div>

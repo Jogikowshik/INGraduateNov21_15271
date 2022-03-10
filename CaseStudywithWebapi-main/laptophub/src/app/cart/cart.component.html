@@ -1,0 +1,76 @@
+<body>
+	<main class="page">
+	 	<section class="shopping-cart dark">
+	 		<div class="container">
+		        <div class="block-heading">
+		          <h2>Shopping Cart</h2>
+
+		        </div>
+		        <div class="content" *ngIf="cartProducts.length > 0; else noProduct">
+	 				<div class="row">
+	 					<div class="col-md-12 col-lg-8">
+	 						<div class="items">
+				 				<div class="product" *ngFor="let cartProduct of cartProducts; let i=index">
+				 					<div class="row">
+					 					<div class="col-md-3">
+					 						<img class="img-fluid mx-auto d-block image" [src]="cartProduct.imagePath" alt="product">
+					 					</div>
+					 					<div class="col-md-8">
+					 						<div class="info">
+						 						<div class="row">
+							 						<div class="col-md-5 product-name">
+							 							<div class="product-name">
+								 							<a [routerLink]="['/productdetails',cartProduct.productId]">{{cartProduct.productName}}</a>
+								 							<div class="product-info">
+									 							<div>Description: <span class="value">{{ cartProduct ? cartProduct.productDescription.split('|')[0] : 'No Description Available'}}</span></div>
+									 						</div>
+									 					</div>
+							 						</div>
+							 						<div class="col-md-4 quantity">
+							 							<label for="quantity">Quantity:</label>
+							 							<input id="quantity" type="number" [(ngModel)]="cartProduct.cart.quantity" [value]="cartProduct.cart.quantity" min="1" class="form-control quantity-input">
+							 						</div>
+							 						<div class="col-md-3 price">
+							 							<span>{{ cartProduct.cart.quantity*cartProduct.productPrice | currency:'INR' }}</span>
+                           <div>
+                             <button mat-raised-button color="primary" (click)="removeFromCart(cartProduct.cart.id)">
+                              <mat-icon>delete</mat-icon>Remove
+                             </button>
+                            </div>
+							 						</div>
+							 					</div>
+							 				</div>
+					 					</div>
+					 				</div>
+				 				</div>
+				 			</div>
+			 			</div>
+			 			<div class="col-md-12 col-lg-4">
+			 				<div class="summary">
+			 					<h3>Summary</h3>
+								<div class="summary-item"><span class="text">Total</span><span class="price">
+                  {{ displayTotalAmount() | currency:'INR'}}
+                </span></div>
+			 					<button mat-button type="button" class="btn btn-primary btn-lg btn-block" [routerLink]="['/payment']" (click)="saveOrder()" >
+                Buy Now
+                  </button>
+                  <button mat-raised-button  class="btn btn-primary btn-lg btn-block" [routerLink]="['/Home']">Continue Shopping!!</button>
+				 			</div>
+			 			</div>
+		 			</div>
+		 		</div>
+         <ng-template #noProduct>
+          <div><span>
+            <mat-icon>add_shopping_cart</mat-icon>
+          </span> Cart is Empty Please select any Product</div>
+          <div>
+            <br>
+            <button mat-raised-button color="primary" [routerLink]="['/Home']">Continue Shopping!!</button>
+          </div>
+         </ng-template>
+	 		</div>
+		</section>
+	</main>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>

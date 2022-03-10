@@ -1,0 +1,37 @@
+<mat-sidenav-container class="sidenav-container" >
+  <mat-sidenav #drawer class="sidenav" fixedInViewport
+      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+      [mode]="(isHandset$ | async) ? 'over' : 'side'"
+      [opened]="(isHandset$ | async) === false">
+    <mat-toolbar><mat-icon>laptop_chromebook</mat-icon><span style="font-size:25px; padding-left:3px;">LaptopHub</span> <hr/></mat-toolbar>
+    <mat-nav-list color="primary">
+      <a mat-list-item routerLink="/dashboard/addproduct">Add Product</a><hr/>
+      <a mat-list-item  routerLink="/dashboard/productlist">Product List</a><hr/>
+      <a mat-list-item  routerLink="/dashboard/orderlist">Order-List</a><hr/>
+      <a mat-list-item  routerLink="/dashboard/addcategory">Add Category</a><hr/>
+      <a mat-list-item  routerLink="/dashboard/categorylist">Category List</a><hr/>
+
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar class="fixed-top">
+      <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()"
+        *ngIf="isHandset$ | async">
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+        <span style="font-size:25px; padding-left:3px;">LaptopHub</span>
+      </button>
+  <span class="spacer"></span>
+  <ul>
+   <li> <button href="" mat-flat-button routerLink="/dashboard/addadminuser">Add Users</button> </li>
+   <li>
+   <button routerLink="/AdminLogin" class="btn btn-danger mx-3">Logout</button>
+  </li>
+  </ul>
+    </mat-toolbar>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

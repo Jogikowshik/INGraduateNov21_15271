@@ -1,0 +1,93 @@
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\LaptophubAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\LaptophubAPI.AssemblyInfoInputs.cache
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\LaptophubAPI.AssemblyInfo.cs
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\LaptophubAPI.csproj.CoreCompileInputs.cache
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\LaptophubAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\LaptophubAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\appsettings.Development.json
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\appsettings.json
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\LaptophubAPI.exe
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\LaptophubAPI.deps.json
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\LaptophubAPI.runtimeconfig.json
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\LaptophubAPI.runtimeconfig.dev.json
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\LaptophubAPI.dll
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\ref\LaptophubAPI.dll
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\LaptophubAPI.pdb
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Humanizer.dll
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Npgsql.dll
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\staticwebassets\LaptophubAPI.StaticWebAssets.Manifest.cache
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\staticwebassets\LaptophubAPI.StaticWebAssets.xml
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\scopedcss\bundle\LaptophubAPI.styles.css
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\LaptophubAPI.RazorTargetAssemblyInfo.cache
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\LaptophubAPI.csproj.CopyComplete
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\LaptophubAPI.dll
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\ref\LaptophubAPI.dll
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\LaptophubAPI.pdb
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\LaptophubAPI.genruntimeconfig.cache
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\trainingnov21\UI Layer\Project\casestudy\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\appsettings.Development.json
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\appsettings.json
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\LaptophubAPI.exe
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\LaptophubAPI.deps.json
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\LaptophubAPI.runtimeconfig.json
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\LaptophubAPI.runtimeconfig.dev.json
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\LaptophubAPI.dll
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\ref\LaptophubAPI.dll
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\LaptophubAPI.pdb
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Humanizer.dll
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Npgsql.dll
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\LaptophubAPI.csproj.AssemblyReference.cache
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\LaptophubAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\LaptophubAPI.AssemblyInfoInputs.cache
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\LaptophubAPI.AssemblyInfo.cs
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\LaptophubAPI.csproj.CoreCompileInputs.cache
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\LaptophubAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\LaptophubAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\staticwebassets\LaptophubAPI.StaticWebAssets.Manifest.cache
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\staticwebassets\LaptophubAPI.StaticWebAssets.xml
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\scopedcss\bundle\LaptophubAPI.styles.css
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\LaptophubAPI.RazorTargetAssemblyInfo.cache
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\LaptophubAPI.csproj.CopyComplete
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\LaptophubAPI.dll
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\ref\LaptophubAPI.dll
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\LaptophubAPI.pdb
+D:\CaseStudywithWebapi-main\CaseStudywithWebapi-main\LaptophubAPI\LaptophubAPI\obj\Debug\net5.0\LaptophubAPI.genruntimeconfig.cache
